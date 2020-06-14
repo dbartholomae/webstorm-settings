@@ -37,7 +37,14 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
   <action id="CollapseBlock" />
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl 2" />
+  </action>
+  <action id="CollapseRegionRecursively" />
   <action id="CollapseSelection" />
   <action id="Compare.SameVersion">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -51,6 +58,8 @@
   </action>
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource" />
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorBackwardParagraph">
@@ -100,6 +109,33 @@
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="ctrl 4" />
+  </action>
+  <action id="ExpandAllToLevel1">
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
+  </action>
+  <action id="ExpandAllToLevel2">
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
+  </action>
+  <action id="ExpandAllToLevel3">
+    <keyboard-shortcut first-keystroke="shift ctrl 3" />
+  </action>
+  <action id="ExpandAllToLevel4">
+    <keyboard-shortcut first-keystroke="shift ctrl 4" />
+  </action>
+  <action id="ExpandAllToLevel5">
+    <keyboard-shortcut first-keystroke="shift ctrl 5" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl 3" />
+  </action>
+  <action id="ExpandRegionRecursively" />
+  <action id="ExpandToLevel1" />
+  <action id="ExpandToLevel2" />
+  <action id="ExpandToLevel3" />
+  <action id="ExpandToLevel4" />
+  <action id="ExpandToLevel5" />
   <action id="ExpressionTypeInfo">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
@@ -111,6 +147,9 @@
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -142,6 +181,11 @@
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="ctrl alt dead_cedilla" />
   </action>
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoDeclaration">
@@ -280,6 +324,11 @@
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="ToggleBookmark1" />
+  <action id="ToggleBookmark2" />
+  <action id="ToggleBookmark3" />
+  <action id="ToggleBookmark4" />
+  <action id="ToggleBookmark5" />
   <action id="TypeHierarchy" />
   <action id="Uml.ShowDiff" />
   <action id="Vcs.EditSource" />
