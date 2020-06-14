@@ -1,0 +1,50 @@
+<templateSet group="JavaScript Testing">
+  <template name="des" value="describe('$NAME$', () =&gt; {&#10;  $SELECTION$$END$&#10;})" description="Inserts describe() block" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="bfe" value="beforeEach($ASYNC$() =&gt; {&#10;  $END$&#10;})" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
+    <variable name="ASYNC" expression="enum(&quot;async &quot;,&quot;&quot;)" defaultValue="&quot;async &quot;" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="it" value="it('$NAME$', $ASYNC$() =&gt; {&#10;  $END$&#10;})" description="Inserts it() block" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ASYNC" expression="enum(&quot;&quot;,&quot;async &quot;)" defaultValue="&quot;async &quot;" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="afe" value="afterEach($ASYNC$() =&gt; {&#10;  $END$&#10;});" description="Inserts afterEach() block" toReformat="true" toShortenFQNames="true">
+    <variable name="ASYNC" expression="enum(&quot;async &quot;,&quot;&quot;)" defaultValue="&quot;async &quot;" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="af" value="after($ASYNC$() {&#10;  $END$&#10;})" description="Inserts after() block" toReformat="true" toShortenFQNames="true">
+    <variable name="ASYNC" expression="enum(&quot;async &quot;,&quot;&quot;)" defaultValue="&quot;async &quot;" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="bf" value="before($ASYNC$() =&gt; {&#10;  $END$&#10;})" description="Inserts before() block" toReformat="true" toShortenFQNames="true">
+    <variable name="ASYNC" expression="enum(&quot;async &quot;,&quot;&quot;)" defaultValue="&quot;async &quot;" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="rend" value="const { $QUERY$ } = render(&lt;$COMPONENT$ /&gt;);&#10;const $ELEMENT$ = $QUERY$($QUERY_PARAMS$);&#10;$END$" description="Insert a test with react testing library" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="substringBefore(fileNameWithoutExtension(), &quot;.&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="QUERY" expression="" defaultValue="&quot;getByText&quot;" alwaysStopAt="true" />
+    <variable name="QUERY_PARAMS" expression="" defaultValue="&quot;\&quot;\&quot;&quot;" alwaysStopAt="true" />
+    <variable name="ELEMENT" expression="" defaultValue="&quot;element&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ex" value="expect($VALUE$).$END$" description="Adds an expect statement" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="wfe" value="await waitForExpect(async () =&gt; {&#10;  $SELECTION$&#10;});" description="Add waitForExpect" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

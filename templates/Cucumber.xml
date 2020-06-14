@@ -1,0 +1,23 @@
+<templateSet group="Cucumber">
+  <template name="then" value="Then(&quot;$CONDITION$&quot;, ($PARAMS$) =&gt; {&#10;  $END$&#10;});" description="Add a cucumber then step definition" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="given" value="Given(&quot;$CONDITION$&quot;, ($PARAMS$) =&gt; {&#10;  $END$&#10;});" description="Add a cucumber given step definition" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="when" value="When(&quot;$CONDITION$&quot;, ($PARAMS$) =&gt; {&#10;  $END$&#10;});" description="Add a cucumber when step definition" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
