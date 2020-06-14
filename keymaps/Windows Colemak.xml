@@ -165,6 +165,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
   <action id="GotoTypeDeclaration" />
+  <action id="Images.Editor.ToggleGrid" />
   <action id="ImplementMethods" />
   <action id="Inline">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
@@ -259,7 +260,9 @@
   <action id="SendEOF" />
   <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.ShowServices" />
-  <action id="Start/stop pomodoro" />
+  <action id="Start/stop pomodoro">
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
