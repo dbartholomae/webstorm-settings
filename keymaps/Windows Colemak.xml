@@ -60,6 +60,9 @@
   <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
+  </action>
   <action id="EditSource" />
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorBackwardParagraph">
@@ -295,7 +298,9 @@
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
-  <action id="Resume" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
@@ -334,6 +339,12 @@
   <action id="ToggleBookmark3" />
   <action id="ToggleBookmark4" />
   <action id="ToggleBookmark5" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
+  </action>
+  <action id="ToggleTemporaryLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="Uml.ShowDiff" />
   <action id="Vcs.EditSource" />
@@ -348,11 +359,12 @@
   <action id="Vcs.UpdateProject">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="shift alt back_slash" />
+  </action>
+  <action id="ViewInplaceComments" />
   <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="XDebugger.JumpToSource" />
   <action id="openAssertEqualsDiff" />
-  <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
-    <keyboard-shortcut first-keystroke="ctrl back_slash" />
-  </action>
   <action id="tasks.switch" />
 </keymap>
