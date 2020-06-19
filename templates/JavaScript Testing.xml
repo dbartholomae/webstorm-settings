@@ -35,7 +35,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ex" value="expect($VALUE$).$END$" description="Adds an expect statement" toReformat="true" toShortenFQNames="true">
+  <template name="ex" value="expect($VALUE$)$END$" description="Adds an expect statement" toReformat="true" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
