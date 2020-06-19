@@ -81,22 +81,30 @@
   </action>
   <action id="EditorJoinLines" />
   <action id="EditorMatchBrace" />
-  <action id="EditorNextWord" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="EditorNextWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
-  <action id="EditorNextWordWithSelection" />
-  <action id="EditorPreviousWord" />
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="EditorPreviousWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
-  <action id="EditorPreviousWordWithSelection" />
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
@@ -271,11 +279,17 @@
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
   <action id="OptimizeImports" />
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="QuickChangeScheme" />
   <action id="QuickImplementations">
