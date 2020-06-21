@@ -200,6 +200,9 @@
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="ctrl alt dead_cedilla" />
   </action>
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="Github.PullRequest.Timeline.Update" />
+  <action id="Github.Workflow.List.Reload" />
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="GotoBookmark3" />
@@ -312,6 +315,7 @@
   </action>
   <action id="RecentFiles" />
   <action id="RecentLocations" />
+  <action id="Refresh" />
   <action id="RemoteHostView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -369,12 +373,16 @@
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
   <action id="TypeHierarchy" />
+  <action id="TypeScript.Restart.Service">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.EditSource" />
   <action id="Vcs.Force.Push">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
