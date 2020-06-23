@@ -387,6 +387,9 @@
   <action id="ViewInplaceComments" />
   <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="XDebugger.JumpToSource" />
+  <action id="com.wallaby.javascript.actions.ShowValueAction">
+    <keyboard-shortcut first-keystroke="shift alt q" />
+  </action>
   <action id="hg4idea.QPushAction" />
   <action id="openAssertEqualsDiff" />
   <action id="tasks.close" />
