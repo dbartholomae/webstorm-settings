@@ -59,7 +59,6 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
-  <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
