@@ -386,6 +386,9 @@
   <action id="ViewInplaceComments" />
   <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="XDebugger.JumpToSource" />
+  <action id="com.nowsprinting.intellij_mob.done" />
+  <action id="com.nowsprinting.intellij_mob.next" />
+  <action id="com.nowsprinting.intellij_mob.start" />
   <action id="com.wallaby.javascript.actions.ShowValueAction">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
