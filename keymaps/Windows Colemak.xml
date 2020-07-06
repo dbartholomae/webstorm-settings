@@ -245,7 +245,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
   <action id="MoveLineDown">
-    <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="MoveLineUp">
