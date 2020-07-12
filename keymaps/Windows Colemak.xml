@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows Colemak" parent="$default">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivateProblemsViewToolWindow">
@@ -71,6 +74,12 @@
   <action id="EditorContextInfo" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt delete" />
+  </action>
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl u" />
@@ -239,7 +248,7 @@
   <action id="MethodHierarchy" />
   <action id="MethodUp" />
   <action id="Move">
-    <keyboard-shortcut first-keystroke="ctrl alt n" />
+    <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt down" />
@@ -320,6 +329,7 @@
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="SafeDelete" />
   <action id="ScrollTreeToCenter" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
@@ -400,5 +410,6 @@
   <action id="hg4idea.QPushAction" />
   <action id="openAssertEqualsDiff" />
   <action id="tasks.close" />
+  <action id="tasks.goto" />
   <action id="tasks.switch" />
 </keymap>
