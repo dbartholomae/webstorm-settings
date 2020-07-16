@@ -65,7 +65,9 @@
   <action id="EditBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
   </action>
-  <action id="EditSource" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorBackwardParagraph">
     <keyboard-shortcut first-keystroke="alt page_up" />
