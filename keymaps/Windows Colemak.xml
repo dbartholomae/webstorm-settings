@@ -174,6 +174,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift alt comma" />
   </action>
+  <action id="Git.Configure.Remotes">
+    <keyboard-shortcut first-keystroke="shift alt period" />
+  </action>
   <action id="Git.Fixup.To.Commit">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
@@ -194,6 +197,9 @@
   </action>
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="ctrl alt dead_cedilla" />
+  </action>
+  <action id="Github.Open.In.Browser">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
