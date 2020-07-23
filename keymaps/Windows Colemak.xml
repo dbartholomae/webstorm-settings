@@ -66,7 +66,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
   </action>
   <action id="EditSource">
-    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorBackwardParagraph">
@@ -203,7 +203,9 @@
   </action>
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
-  <action id="Github.Workflow.List.Reload" />
+  <action id="Github.Workflow.List.Reload">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="GotoBookmark3" />
