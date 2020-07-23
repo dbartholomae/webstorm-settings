@@ -273,7 +273,7 @@
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
-  <action id="NewFile">
+  <action id="NewElement">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="NewScratchFile">
