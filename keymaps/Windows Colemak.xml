@@ -152,9 +152,7 @@
   <action id="ExpressionTypeInfo">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="ExternalJavaDoc">
-    <keyboard-shortcut first-keystroke="shift ctrl q" />
-  </action>
+  <action id="ExternalJavaDoc" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="ctrl i" />
@@ -210,7 +208,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt dead_cedilla" />
   </action>
   <action id="Github.Open.In.Browser">
-    <keyboard-shortcut first-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
