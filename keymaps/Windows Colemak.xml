@@ -169,6 +169,12 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="FindUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="Git.Branches">
@@ -195,6 +201,7 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="GitToolBox.BlameDetails" />
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="ctrl alt dead_cedilla" />
   </action>
@@ -347,6 +354,12 @@
   <action id="SendEOF" />
   <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.ShowServices" />
+  <action id="ShowSettingsAndFindUsages">
+    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
+  </action>
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="shift alt b" />
+  </action>
   <action id="Start/stop pomodoro">
     <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
@@ -421,5 +434,6 @@
   <action id="openAssertEqualsDiff" />
   <action id="tasks.close" />
   <action id="tasks.goto" />
+  <action id="tasks.open.in.browser" />
   <action id="tasks.switch" />
 </keymap>
