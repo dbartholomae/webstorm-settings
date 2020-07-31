@@ -1,0 +1,9 @@
+<templateSet group="AWS CDK">
+  <template name="stack" value="import { Construct, Stack, StackProps } from '@aws-cdk/core'&#10;&#10;export class $NAME$ extends Stack {&#10;  constructor(scope: Construct, id: string, props: StackProps$PROPS$) {&#10;    super(scope, id, props);&#10;    $END$&#10;  }&#10;}&#10;" description="AWS CDK Stack" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
