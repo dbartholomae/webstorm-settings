@@ -40,15 +40,12 @@
                 <option name="style" value="_ALL_UPPER_CASE" />
               </Step>
               <Step>
-                <option name="enabled" value="false" />
                 <option name="style" value="WORD_LOWERCASE" />
               </Step>
               <Step>
-                <option name="enabled" value="false" />
                 <option name="style" value="SENTENCE_CASE" />
               </Step>
               <Step>
-                <option name="enabled" value="false" />
                 <option name="style" value="WORD_CAPITALIZED" />
               </Step>
               <Step>
