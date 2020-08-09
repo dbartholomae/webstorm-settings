@@ -395,7 +395,7 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeScript.Restart.Service">
-    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.Diff.ExcludeChangedLinesFromCommit">
