@@ -24,7 +24,9 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
-  <action id="ChangeSignature" />
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
