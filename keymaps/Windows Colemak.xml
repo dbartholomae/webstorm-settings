@@ -74,9 +74,7 @@
   <action id="EditBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
   </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
+  <action id="EditSource" />
   <action id="EditorAddCaretPerSelectedLine" />
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorBackwardParagraph">
