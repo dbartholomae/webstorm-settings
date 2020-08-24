@@ -45,4 +45,12 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="export" value="export {$ITEM$$END$} from &quot;$MODULE$&quot;;" description="Export statement" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
