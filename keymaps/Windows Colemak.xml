@@ -24,6 +24,9 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
@@ -65,9 +68,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="CompareTwoFiles" />
-  <action id="DebugClass">
-    <keyboard-shortcut first-keystroke="ctrl alt t" />
-  </action>
   <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
@@ -180,6 +180,9 @@
   </action>
   <action id="FindUsagesInFile">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
@@ -368,9 +371,7 @@
   <action id="Start/stop pomodoro">
     <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="ctrl g" />
-  </action>
+  <action id="Stop" />
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
@@ -432,9 +433,33 @@
   <action id="com.nowsprinting.intellij_mob.done" />
   <action id="com.nowsprinting.intellij_mob.next" />
   <action id="com.nowsprinting.intellij_mob.start" />
+  <action id="com.wallaby.javascript.actions.DebugStartAction">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="com.wallaby.javascript.actions.DebugStopAction">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="com.wallaby.javascript.actions.PlayTraceBackwardToSelectionAction" />
+  <action id="com.wallaby.javascript.actions.PlayTraceForwardToSelectionAction" />
+  <action id="com.wallaby.javascript.actions.PlayTraceNextStepAction">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="com.wallaby.javascript.actions.PlayTraceNextStepOutAction" />
+  <action id="com.wallaby.javascript.actions.PlayTraceNextStepOverAction">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="com.wallaby.javascript.actions.PlayTracePrevStepAction" />
+  <action id="com.wallaby.javascript.actions.PlayTracePrevStepOutAction">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="com.wallaby.javascript.actions.PlayTracePrevStepOverAction">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="com.wallaby.javascript.actions.ShowFileUncoveredRangesAction" />
   <action id="com.wallaby.javascript.actions.ShowValueAction">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
+  <action id="hg4idea.QGotoFromPatches" />
   <action id="hg4idea.QPushAction" />
   <action id="openAssertEqualsDiff" />
   <action id="tasks.close" />
