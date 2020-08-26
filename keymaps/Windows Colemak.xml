@@ -74,7 +74,9 @@
   <action id="EditBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
   </action>
-  <action id="EditSource" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
   <action id="EditorAddCaretPerSelectedLine" />
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorBackwardParagraph">
@@ -230,8 +232,8 @@
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="ctrl m" />
     <mouse-shortcut keystroke="alt button1" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="GotoFile" />
   <action id="GotoImplementation">
@@ -247,7 +249,7 @@
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoTest">
-    <keyboard-shortcut first-keystroke="shift ctrl m" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="GotoTypeDeclaration" />
   <action id="Images.Editor.ToggleGrid" />
@@ -461,7 +463,7 @@
   </action>
   <action id="hg4idea.QGotoFromPatches" />
   <action id="hg4idea.QPushAction" />
-  <action id="openAssertEqualsDiff" />
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction" />
   <action id="tasks.close" />
   <action id="tasks.goto" />
   <action id="tasks.open.in.browser" />
