@@ -347,9 +347,7 @@
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
-  <action id="Resume">
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
-  </action>
+  <action id="Resume" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
