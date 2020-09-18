@@ -53,4 +53,12 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="importt" value="import type {$ITEM$$END$} from &quot;$MODULE$&quot;;" description="Import type statement - import type {b} from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
