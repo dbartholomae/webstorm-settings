@@ -158,7 +158,9 @@
   <action id="ExpressionTypeInfo">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="ExternalJavaDoc" />
+  <action id="ExternalJavaDoc">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="ctrl i" />
@@ -217,7 +219,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt dead_cedilla" />
   </action>
   <action id="Github.Open.In.Browser">
-    <keyboard-shortcut first-keystroke="shift ctrl q" />
+    <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
@@ -456,9 +458,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="com.wallaby.javascript.actions.ShowFileUncoveredRangesAction" />
-  <action id="com.wallaby.javascript.actions.ShowValueAction">
-    <keyboard-shortcut first-keystroke="shift alt q" />
-  </action>
   <action id="hg4idea.QGotoFromPatches" />
   <action id="hg4idea.QPushAction" />
   <action id="osmedile.intellij.stringmanip.PopupChoiceAction" />
