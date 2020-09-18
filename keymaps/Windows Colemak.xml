@@ -435,11 +435,14 @@
   <action id="com.nowsprinting.intellij_mob.done" />
   <action id="com.nowsprinting.intellij_mob.next" />
   <action id="com.nowsprinting.intellij_mob.start" />
+  <action id="com.wallaby.javascript.actions.CopyValueAction">
+    <keyboard-shortcut first-keystroke="shift alt g" />
+  </action>
   <action id="com.wallaby.javascript.actions.DebugStartAction">
-    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="com.wallaby.javascript.actions.DebugStopAction">
-    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="com.wallaby.javascript.actions.PlayTraceBackwardToSelectionAction" />
   <action id="com.wallaby.javascript.actions.PlayTraceForwardToSelectionAction" />
@@ -458,6 +461,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="com.wallaby.javascript.actions.ShowFileUncoveredRangesAction" />
+  <action id="com.wallaby.javascript.actions.ShowValueAction">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="hg4idea.QGotoFromPatches" />
   <action id="hg4idea.QPushAction" />
   <action id="osmedile.intellij.stringmanip.PopupChoiceAction" />
