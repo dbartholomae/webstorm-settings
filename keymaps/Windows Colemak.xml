@@ -65,6 +65,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.History.Browse" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
@@ -265,7 +266,7 @@
   </action>
   <action id="IntroduceField" />
   <action id="IntroduceParameter">
-    <keyboard-shortcut first-keystroke="ctrl alt e" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="ctrl e" />
@@ -299,7 +300,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="NewScratchFile">
-    <keyboard-shortcut first-keystroke="ctrl alt e" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="NewTypeScriptFile">
     <keyboard-shortcut first-keystroke="ctrl e" />
@@ -393,6 +394,7 @@
   <action id="ToggleBookmark3" />
   <action id="ToggleBookmark4" />
   <action id="ToggleBookmark5" />
+  <action id="ToggleFindInSelection" />
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
