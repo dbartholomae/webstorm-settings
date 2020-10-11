@@ -53,4 +53,12 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="const" value="const { $ITEM$$END$ } = $OBJ$;" description="const destructuring" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJ" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
