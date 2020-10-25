@@ -10,7 +10,8 @@
     <option name="AUTOREPARSE_DELAY" value="0" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="18" />
+    <option name="FONT_SIZE" value="27" />
+    <option name="FONT_SCALE" value="1.5" />
     <option name="USE_LIGATURES" value="true" />
   </component>
   <component name="EditorSettings">
@@ -21,7 +22,7 @@
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <option name="lastViewedProviderKeyId" value="ts.enum.hints" />
     <settingsMapElement>
       <TypeScript.ts.type.hints>
         <Settings>
