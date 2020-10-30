@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Add RemoteIDE AWS credentials" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/add-aws-credentials" />
+      <option name="PARAMETERS" value="RemoteIDE" />
+      <option name="WORKING_DIRECTORY" value="/usr/local/bin" />
+    </exec>
+  </tool>
+</toolSet>
