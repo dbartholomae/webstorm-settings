@@ -241,10 +241,10 @@
   </action>
   <action id="GotoLine" />
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoTest">
@@ -440,10 +440,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
   <action id="VcsShowNextChangeMarker">
-    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="VcsShowPrevChangeMarker">
-    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="shift alt back_slash" />
