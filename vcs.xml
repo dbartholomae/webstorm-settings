@@ -110,6 +110,14 @@
           <option name="url" value="git@github.com:creativetimofficial/nextjs-material-kit.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:swkBerlin/kata-bootstraps.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:swkWien/kata-bootstraps-gdcr20.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/repos" />
