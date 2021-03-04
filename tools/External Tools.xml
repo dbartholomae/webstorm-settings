@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="/usr/local/bin" />
     </exec>
   </tool>
+  <tool name="Force pull" description="Reset branch to ustream and pull" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="force-pull" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
