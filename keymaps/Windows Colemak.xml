@@ -41,11 +41,11 @@
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="CloseActiveTab" />
-  <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="ctrl alt w" />
-  </action>
   <action id="CloseAllNotifications">
     <keyboard-shortcut first-keystroke="shift escape" />
+  </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
