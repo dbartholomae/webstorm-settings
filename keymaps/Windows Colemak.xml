@@ -280,12 +280,8 @@
   <action id="Move">
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
-  <action id="MoveElementLeft">
-    <keyboard-shortcut first-keystroke="ctrl alt released f1" />
-  </action>
-  <action id="MoveElementRight">
-    <keyboard-shortcut first-keystroke="ctrl alt released f3" />
-  </action>
+  <action id="MoveElementLeft" />
+  <action id="MoveElementRight" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="ctrl alt released f2" />
   </action>
@@ -472,23 +468,13 @@
   <action id="com.wallaby.javascript.actions.DebugStopAction">
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
-  <action id="com.wallaby.javascript.actions.PlayTraceBackwardToSelectionAction" />
-  <action id="com.wallaby.javascript.actions.PlayTraceForwardToSelectionAction" />
-  <action id="com.wallaby.javascript.actions.PlayTraceNextStepAction">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  <action id="com.wallaby.javascript.actions.PlayTraceBackwardToSelectionAction">
+    <keyboard-shortcut first-keystroke="ctrl alt released f1" />
   </action>
-  <action id="com.wallaby.javascript.actions.PlayTraceNextStepOutAction" />
-  <action id="com.wallaby.javascript.actions.PlayTraceNextStepOverAction">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  <action id="com.wallaby.javascript.actions.PlayTraceForwardToSelectionAction">
+    <keyboard-shortcut first-keystroke="alt f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt released f3" />
   </action>
-  <action id="com.wallaby.javascript.actions.PlayTracePrevStepAction" />
-  <action id="com.wallaby.javascript.actions.PlayTracePrevStepOutAction">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
-  </action>
-  <action id="com.wallaby.javascript.actions.PlayTracePrevStepOverAction">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-  </action>
-  <action id="com.wallaby.javascript.actions.ShowFileUncoveredRangesAction" />
   <action id="com.wallaby.javascript.actions.ShowValueAction">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
