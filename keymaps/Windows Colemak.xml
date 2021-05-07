@@ -82,6 +82,12 @@
     <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
   <action id="EditorChooseLookupItemDot" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl quote" />
+  </action>
   <action id="EditorContextInfo" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -273,6 +279,7 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="JumpToLastChange" />
+  <action id="MaximizeToolWindow" />
   <action id="MethodDown" />
   <action id="MethodHierarchy" />
   <action id="MethodOverloadSwitchDown" />
@@ -365,6 +372,9 @@
   <action id="ScrollTreeToCenter" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
   </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
