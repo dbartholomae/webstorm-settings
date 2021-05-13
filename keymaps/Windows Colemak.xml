@@ -179,6 +179,7 @@
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
@@ -189,6 +190,7 @@
   <action id="FindUsagesInFile">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
+  <action id="FindWordAtCaret" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
@@ -379,6 +381,9 @@
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
   <action id="SendEOF" />
   <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.ShowServices" />
@@ -432,6 +437,9 @@
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  </action>
   <action id="Vcs.Diff.ExcludeChangedLinesFromCommit">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
