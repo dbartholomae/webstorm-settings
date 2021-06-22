@@ -154,6 +154,10 @@
           <option name="url" value="git@github.com:dbartholomae/jsx-readme.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:jbrains/trivia.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\repos" />
