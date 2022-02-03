@@ -178,6 +178,10 @@
           <option name="url" value="git@github.com:dbartholomae/aws-cdk.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:dbartholomae/jest.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\repos" />
