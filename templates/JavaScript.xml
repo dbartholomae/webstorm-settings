@@ -71,4 +71,15 @@
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="(" value="$FUNCTION$($SELECTION$)$END$" description="Wrap in parantheses" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_EXPRESSION" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
