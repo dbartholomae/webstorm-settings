@@ -317,6 +317,9 @@
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
+  <action id="NewTypeScriptFile">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
