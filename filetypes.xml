@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="credentials" type="AUTO_DETECTED" />
       <mapping pattern=".cypress-cucumber-preprocessorrc" type="JSON" />
+      <mapping pattern=".swcrc" type="JSON" />
       <mapping pattern=".lintstagedrc" type="JSON" />
       <mapping ext="mp4" type="Native" />
       <mapping pattern=".env.template" type="PLAIN_TEXT" />
