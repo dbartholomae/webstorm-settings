@@ -226,6 +226,10 @@
           <option name="url" value="git@github.com:optilyz/source.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:optilyz/admin-dashboard.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\repos" />
