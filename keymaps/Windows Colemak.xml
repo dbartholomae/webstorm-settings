@@ -26,6 +26,7 @@
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="AddToFavoritesPopup" />
+  <action id="CWMHostShowPopupAction" />
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
