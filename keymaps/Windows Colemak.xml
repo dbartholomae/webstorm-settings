@@ -89,6 +89,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl quote" />
   </action>
   <action id="EditorContextInfo" />
+  <action id="EditorDecreaseFontSizeGlobal" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -104,6 +105,7 @@
   <action id="EditorForwardParagraph">
     <keyboard-shortcut first-keystroke="alt page_down" />
   </action>
+  <action id="EditorIncreaseFontSizeGlobal" />
   <action id="EditorJoinLines" />
   <action id="EditorLookupDown" />
   <action id="EditorMatchBrace" />
