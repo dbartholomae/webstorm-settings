@@ -1,6 +1,13 @@
 <templateSet group="JavaScript Testing">
-  <template name="descr" value="describe('$NAME$', () =&gt; {&#10;  $SELECTION$$END$&#10;});" description="Inserts describe() block" toReformat="true" toShortenFQNames="true">
-    <variable name="NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+  <template name="des" value="describe(&quot;$NAME$&quot;, () =&gt; {&#10;  $SELECTION$$END$&#10;});" description="Inserts describe() block" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it(&quot;$NAME$&quot;,$ASYNC$ () =&gt; {&#10;  $END$&#10;}); " description="Inserts it() block" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ASYNC" expression="" defaultValue="&quot;async&quot;" alwaysStopAt="true" />
     <context />
   </template>
 </templateSet>
