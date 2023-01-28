@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="import" value="import { $END$ } from &quot;$PACKAGE$&quot;;" toReformat="false" toShortenFQNames="true">
+  <template name="import" value="import { $END$ } from &quot;$PACKAGE$&quot;;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PACKAGE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
