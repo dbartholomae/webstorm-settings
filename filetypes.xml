@@ -16,6 +16,7 @@
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="buf" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".lintstagedrc" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
