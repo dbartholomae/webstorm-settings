@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="credentials" type="AUTO_DETECTED" />
+      <mapping pattern="COMMIT_EDITMSG" type="AUTO_DETECTED" />
       <mapping pattern=".env" type="AUTO_DETECTED" />
       <mapping pattern=".cypress-cucumber-preprocessorrc" type="JSON" />
       <mapping pattern=".swcrc" type="JSON" />
