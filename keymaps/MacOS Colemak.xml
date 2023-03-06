@@ -61,6 +61,10 @@
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="AddToFavoritesPopup" />
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="CWMHostShowPopupAction" />
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
@@ -264,6 +268,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
   <action id="FindWordAtCaret" />
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="Git.Branches">
@@ -362,12 +370,8 @@
   <action id="Move">
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
-  <action id="MoveElementLeft">
-    <keyboard-shortcut first-keystroke="meta left" />
-  </action>
-  <action id="MoveElementRight">
-    <keyboard-shortcut first-keystroke="meta right" />
-  </action>
+  <action id="MoveElementLeft" />
+  <action id="MoveElementRight" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="ctrl alt released f2" />
   </action>
