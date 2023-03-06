@@ -333,6 +333,7 @@
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="GotoTypeDeclaration" />
+  <action id="HideActiveWindow" />
   <action id="Images.Editor.ToggleGrid" />
   <action id="ImplementMethods" />
   <action id="Inline">
@@ -393,6 +394,10 @@
   </action>
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
